@@ -1,12 +1,22 @@
-# React + Vite
+# 🧠 React Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Basit ve interaktif bir quiz uygulaması. React kullanılarak geliştirildi. Sorular Fake API'den geliyor ve kullanıcılar puanlarını anında görebiliyor.
 
-Currently, two official plugins are available:
+## 🚀 Projeyi Başlatma
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Projeyi klonladıktan sonra terminalde şu adımları takip edin:
 
-## Expanding the ESLint configuration
+```bash
+# 1. Depoyu klonla
+git clone https://github.com/talhaceliktas/react-quiz-app.git
+cd react-quiz-app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 2. Gerekli paketleri yükle
+npm install
+
+# 3. JSON Server'ı başlat (soruları servis eder)
+npm run server
+
+# 4. Uygulamayı başlat
+npm run dev
+```
